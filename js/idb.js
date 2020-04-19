@@ -1,4 +1,6 @@
 // indexedDB stuff
+/*Done*/
+
 let indexedDB;
 if (self.indexedDB) {
   indexedDB = self.indexedDB;

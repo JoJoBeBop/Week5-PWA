@@ -1,6 +1,5 @@
 'use strict';
-
-/*test*/
+/*Everything is done?*/
 
 window.addEventListener('load', async () => {
   const ul = document.querySelector('ul');
