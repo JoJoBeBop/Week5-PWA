@@ -1,5 +1,7 @@
 'use strict';
 
+/*test*/
+
 window.addEventListener('load', async () => {
   const ul = document.querySelector('ul');
   const rfrsh = document.querySelector('#refresh');
