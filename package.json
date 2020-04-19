@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
     "uglify": "terser public/js/example.js -o public/js/example.min.js -c -m  --source-map \"root='https://chargemap.jelastic.metropolia.fi/js',url='js/example.min.js.map'\""
   },
   "keywords": [],
@@ -30,6 +31,7 @@
     "mongoose": "^5.9.7",
     "mongoose-geojson-schema": "^2.1.5",
     "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.3",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0"
